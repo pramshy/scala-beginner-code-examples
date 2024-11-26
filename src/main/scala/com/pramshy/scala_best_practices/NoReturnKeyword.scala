@@ -1,5 +1,6 @@
 package com.pramshy.scala_best_practices
 
+// Do Not Use The Return Keyword
 object NoReturnKeyword {
 
   def myFunction(in : String) : String = {

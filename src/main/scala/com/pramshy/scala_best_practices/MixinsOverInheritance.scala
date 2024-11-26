@@ -2,7 +2,7 @@ package com.pramshy.scala_best_practices
 
 import scala.language.reflectiveCalls
 
-
+// Prefer Mixins Over Deep Inheritance
 object MixinsOverInheritance {
 
   trait StringContainer {

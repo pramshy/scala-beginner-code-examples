@@ -1,6 +1,7 @@
 package com.pramshy.scala_best_practices
 
 // Avoid using other code or class in package object
+// No classes inside a package object
 package object packageobject {
 
   // Avoid in package object. Its should be in its own class Foo
@@ -13,10 +14,5 @@ package object packageobject {
   type StringedFoo = Foo[String]
   type LongFoo = Foo[Long]
   type IntFoo = Foo[Int]
-
-
-
-
-
 
 }

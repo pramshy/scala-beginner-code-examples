@@ -1,5 +1,6 @@
 package com.pramshy.scala_best_practices
 
+// Instance methods invoking static methods
 object InstanceMethodsInvokeStatic {
 
   class Foo(barVariable: Option[String]) {

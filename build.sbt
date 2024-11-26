@@ -6,3 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala_begin"
   )
+
+val AkkaVersion = "2.8.5"
+libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion
